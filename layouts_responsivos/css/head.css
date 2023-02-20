@@ -21,16 +21,25 @@
     margin-bottom: 1rem;
 }
 
-.head__navegacion {
+.head__navegacion ul {
+    font-size: 1.1rem;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .head__enlace {
-    font-size: 1.1rem;
+    margin-right: .6rem;
+    margin-bottom: .6rem;
+    margin-left: .6rem;
+    text-align: center;
+}
 
-    display: inline-block;
-
-    margin-right: .7rem;
-    margin-bottom: .7rem;
-    margin-left: .7rem;
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 }

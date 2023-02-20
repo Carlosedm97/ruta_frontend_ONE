@@ -10,7 +10,7 @@
 }
 
 .contacto p {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .contacto__titulo {
@@ -26,6 +26,5 @@
 .contacto__boton {
     color: var(--boton-rojo);
     border-color: var(--boton-rojo);
-    margin-top: 1.25rem;
     text-align: center;
 }
