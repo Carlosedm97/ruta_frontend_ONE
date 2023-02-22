@@ -1,3 +1,5 @@
+/*first mobile Mobile (Large) 425px*/
+
 .destacados{
     background-color: var(--background-azul-claro);
     padding-top: 2.5rem;
@@ -38,3 +40,7 @@
     color: var(--boton-rojo);
     margin: 0 auto;
 }
+
+/*versión de layout para Tablet 768px*/
+
+/*versión de layout para Desktop 1024px*/
