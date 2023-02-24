@@ -1,3 +1,24 @@
 .menu__lista {
+    width: 400px;
     display: flex;
+    justify-content:space-between;
+}
+
+@media screen and (max-width:425px) {
+    .menu__lista {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .menu__lista {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menu__lista {
+        flex-direction: column;
+        text-align: center;
+    }
 }
